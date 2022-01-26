@@ -1,16 +1,14 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
-
-
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# serverspec-demo
-# test
+# serverspec-demo-1
+serverspec-demo-1は、Serverspecを使用して対象となるAWSのEC2インスタンス上でテストを自動で行います。  
+# 使用技術
+- ServerSpec
+  - Ruby
+- AWS
+  - VPC
+  - EC2
+  - RDS
+# 構成図
+![sample]()  
+# 特徴
+- テスト内容は、他リポジトリ「ansible-demo」の実行結果を確認するものとなっています。
+- 他リポジトリ「serverspec-demo-1」と異なる点は、他リポジトリ「ansible-demo」を実行したテストする側のEC2インスタンスとは異なるEC2インスタンス・異なるユーザーから、テストされる側のEC2インスタンスにテストを実行していることです。
