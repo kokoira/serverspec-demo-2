@@ -1,5 +1,5 @@
-# serverspec-demo-1
-serverspec-demo-1は、Serverspecを使用して対象となるAWSのEC2インスタンス上でテストを自動で行います。  
+# serverspec-demo-2
+serverspec-demo-2は、Serverspecを使用して対象となるAWSのEC2インスタンス上でテストを自動で行います。  
 # 使用技術
 - ServerSpec
   - Ruby
